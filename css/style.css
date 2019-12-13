@@ -8,7 +8,22 @@ body,html{
     width: 2000px;
     height: 100vh;
 }
-.container{
-    margin: 0 auto;
+.container-header{
+    width: 2000px;
+    height: 800px;
+    background: url(/img/book.jpg);
+}
 
+.nav{
+    display: flex;
+}
+.main__link{
+    text-decoration: none;
+    color: white;
+}
+.nav__text{
+    color: white;
+}
+.yellow{
+    color: #ab5325;
 }
